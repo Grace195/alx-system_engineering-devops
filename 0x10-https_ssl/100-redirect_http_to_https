@@ -47,5 +47,5 @@ frontend grace5-frontend-https
 
 backend grace5-backend
         balance roundrobin
-        server 468201-web-01 54.237.36.111:80 check
-        server 468201-web-02 54.210.89.79:80 check
+        server 468201-web-01 54.210.8.223:80 check
+        server 468201-web-02 54.209.136.222:80 check
